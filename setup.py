@@ -18,7 +18,7 @@ tests_require = [
 
 
 install_requires = [
-    "wagtail>=4.1,<6.0",
+    "wagtail>=4.1",
     "Unidecode>=0.04.14,<2.0",
     "wagtail-generic-chooser>=0.5.0,<0.7",
 ]
@@ -71,6 +71,8 @@ setup(
         "Framework :: Wagtail",
         "Framework :: Wagtail :: 4",
         "Framework :: Wagtail :: 5",
+        "Framework :: Wagtail :: 5.0",
+        "Framework :: Wagtail :: 5.1",
         "Topic :: Internet :: WWW/HTTP :: Site Management",
     ],
 )
